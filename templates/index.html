@@ -1,0 +1,22 @@
+<!DOCTYPE html>
+<html lang="cs">
+<head>
+    <meta charset="UTF-8">
+    <title>CITÁT</title>
+</head>
+<body>
+    <p>Klikni na tlačítko a zobrazí se náhodný citát.</p>
+    <button onclick="generateQuote()">Zobrazit citát</button>
+    <br><br>
+    <p id="citat">{{ citat }}</p>
+
+    <script>
+        const citaty = {{ citaty | tojson }};
+        const citatElement = document.getElementById("citat");
+
+        function generateQuote() {
+            citatElement.textContent = citaty[Math.floor(Math.random() * citaty.length)];
+        }
+    </script>
+</body>
+</html>
