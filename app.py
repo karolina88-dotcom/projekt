@@ -34,7 +34,7 @@ def citat():
         elif tema==FILOZOFIE:
             return render_template(
                 "citat.html",
-                citat="„Nemám slov, abych vyjádřil, co cítím při čtení knih. Trávím spoustu času čtením, protože to velmi miluji. Dokážu se v té knížce úplně ztratit a zapomenout, kde jsem. Filozofie je můj oblíbený předmět. To, co je skvělé na čtení, je, že na jednom řádku můžete narazit na něco, co jste se snažili vyjádřit celý život, nebo něco, na co jste se snažili přijít celý život.“ Michael Jackson")
+                citat="„Nemám slov, abych vyjádřil, co cítím při čtení knih. Trávím spoustu času čtením, protože to velmi miluji. Dokážu se v té knížce úplně ztratit a zapomenout, kde jsem. Filozofie je můj oblíbený předmět. To, co je skvělé na čtení, je, že na jednom řádku můžete narazit na něco, co jste se snažili vyjádřit celý život, nebo něco, na co jste se snažili přijít celý život.“ Michael Jackso")
 
         
 
